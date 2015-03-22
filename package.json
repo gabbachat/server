@@ -1,0 +1,75 @@
+{
+  "name": "gabba",
+  "version": "0.0.1",
+  "description": "Chat server for gabba",
+  "main": "server.js",
+  "private": false,
+  "author": {
+    "name": "Jesse Weed",
+    "email": "jesse@jesseweed.com",
+    "url": "http://jesseweed.com"
+  },
+  "license": "MIT",
+  "homepage": "http://gabba.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabbachat/server"
+  },
+  "bugs": {
+    "url": "https://github.com/gabbachat/server/issues"
+  },
+  "keywords": [
+    "node",
+    "io",
+    "koa",
+    "mvc",
+    "framework",
+    "pog",
+    "js",
+    "rest",
+    "api",
+    "app"
+  ],
+  "engines": {
+    "iojs": "^1.3.x",
+    "npm": "^0.2.x"
+  },
+  "dependencies": {
+    "MD5": "^1.2.1",
+    "blanket": "^1.1.6",
+    "colors": "^1.0.3",
+    "giphy": "0.0.4",
+    "gravatar": "^1.1.0",
+    "koa": "^0.18.0",
+    "koa-cors": "0.0.14",
+    "koa-gzip": "^0.1.0",
+    "koa-route": "^2.4.0",
+    "koa-static": "^1.4.9",
+    "markdown-it": "^4.0.1",
+    "markdown-it-emoji": "^1.0.0",
+    "markdown-it-hashtag": "^0.2.3",
+    "markdown-it-video": "^0.1.6",
+    "moment": "^2.9.0",
+    "pog-router": "^0.1.1",
+    "puid": "^1.0.4",
+    "sails-mongo": "^0.10.5",
+    "socket.io": "^1.3.4",
+    "waterline": "^0.10.18"
+  },
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "expect": "^1.6.0",
+    "gulp": "^3.8.11",
+    "gulp-blanket-mocha": "0.0.4",
+    "gulp-coverage": "^0.3.34",
+    "gulp-exit": "0.0.2",
+    "gulp-load-plugins": "^0.8.1",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nodemon": "^1.0.5",
+    "should": "^5.2.0",
+    "socket.io-client": "^1.3.5"
+  },
+  "scripts": {
+    "start": "iojs server"
+  }
+}
